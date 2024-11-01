@@ -1,0 +1,5 @@
+creation_rules:
+  - path_regex: myproject/development-secrets.env
+    kms: 'arn:aws:kms:us-east-1:975049911685:key/43858979-424b-4c25-8d22-71343e4bf2f9'
+  - path_regex: myproject/production-secrets.env
+    kms: 'arn:aws:kms:us-east-1:975049911685:key/43858979-424b-4c25-8d22-71343e4bf2f9'
